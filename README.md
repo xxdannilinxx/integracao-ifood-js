@@ -16,5 +16,7 @@ No arquivo *ifood.js* está disponibilizado o trâmite correto para obtenção d
 
 Faça uma requisição GET passando o bearer token para:
 ``
+
 https://pos-api.ifood.com.br/v1.0/merchants
+
 ``
