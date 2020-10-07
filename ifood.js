@@ -16,7 +16,7 @@ const PASSWORD = "xxx";
 const MERCHAN_ID = "xxx";
 /**
  * 
- * função personalizada jquery para realizar os requests
+ * função personalizada jquery para realizar as requisições
  * 
  */
 let setSubmit = (dados, caminho, successback, failback) => {
@@ -152,7 +152,7 @@ let gerarPedido = (token, pedido) => {
          */
         setSubmit({
             dados: pedidoRecebido,
-        }, RAIZ + request, (r, xhr) => {
+        }, 'http://localhost/seu_arquivo.php', (r, xhr) => {
             comunicarIfood(token, pedido);
             console.log('Pedido salvo com sucesso.');
         }, (r, xhr) => {
@@ -188,8 +188,7 @@ let gerarPedido = (token, pedido) => {
 /**
  * 
  * Passo 2
- * Buscar eventos (polling), o ifood recomenda realizar a cada 30s, toda vez que efetuar a busca, vai notificar ao ifood
- * que a loja e está aberta.
+ * Buscar eventos (polling) no ifood recursivamente e temporáriamente. (novos pedidos/atualizações/cancelamentos) 
  * 
  */
 let ifoodGetPedidos = () => ifood(token => {
@@ -295,7 +294,9 @@ let ifood = (callback, failback) => {
 };
 /**
  *
- * 
+ * Início
+ * o ifood recomenda realizar os pollings (buscar eventos) a cada 30s, toda vez que efetuar a busca ao mesmo tempo irá notificar ao ifood
+ * que a loja e está aberta.
  * 
  */
 ifoodGetPedidos();
