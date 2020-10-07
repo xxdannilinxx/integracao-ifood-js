@@ -2,6 +2,7 @@
 Integração com o ifood em javascript, utilizando como referência a api oficial.
 
 - *Passo 1*
+
 *Ler a API de referência* (Utilizando [Ifood Developers](https://developer.ifood.com.br/reference#autentica%C3%A7%C3%A3o2))
 
 - *Passo 2*
@@ -16,8 +17,8 @@ No arquivo *ifood.js* está disponibilizado o trâmite correto para obtenção d
 O ifood recomenda colocar o endereço "Bujari, 100" no bairro "BUJARI", se já fez os procedimentos porém continua não visualizando, siga os passos abaixo.
 
 Faça uma requisição GET passando o bearer token para:
-``
 
+``
 https://pos-api.ifood.com.br/v1.0/merchants
 
 ``
