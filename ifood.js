@@ -8,12 +8,12 @@
  * 
  * 
  */
-const CLIENTE_ID = "gamadelivery";
-const CLIENTE_SECRET = "5SXa4QzL";
+const CLIENTE_ID = "xxx";
+const CLIENTE_SECRET = "xxx";
 const GRANT_TYPE = "password";
-const USERNAME = "POS-328207455";
-const PASSWORD = "POS-328207455";
-const MERCHAN_ID = "1240845";
+const USERNAME = "xxx";
+const PASSWORD = "xxx";
+const MERCHAN_ID = "xxx";
 /**
  * 
  * função personalizada jquery para realizar os requests
