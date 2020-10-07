@@ -1,4 +1,4 @@
 # integracao-ifood-js
-Aplicativo disponível para multi-plataforma através do quasar fazendo o build com o electron.
-
-- *gmagick* (using [Gmagick PHP extension](https://www.php.net/manual/en/book.gmagick.php))
+Integração com o ifood em javascript, utilizando como referência a api oficial.
+<!-- - *gmagick* (using [Gmagick PHP extension](https://www.php.net/manual/en/book.gmagick.php)) -->
+- *Ifood Developers* (Utilizando [Ifood Developers](https://developer.ifood.com.br/reference#autentica%C3%A7%C3%A3o2))
