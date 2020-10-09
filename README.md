@@ -9,6 +9,13 @@ Integração com o ifood em javascript, utilizando como referência a api oficia
 
 No arquivo *ifood.js* está disponibilizado o trâmite correto para obtenção de pedidos, para importar produtos, cadastrar categorias ou até mesmo receber as avaliações, consulte a API.
 
+## Rotina do processo
+> Gerar o bearer token a cada uma hora. (se gerar em excesso, o ifood pode bloquear suas requisições temporáriamente).
+> Buscar por novos eventos a cada 30 segundos, utilizando o bearer token.
+> Os eventos podem ser cancelamento de pedido, atualização de status ou um novo pedido, e voce precisará tratar isso no seu back-end.
+> Se o evento for de novo pedido, precisa confirmar ao ifood que recebeu e integrar o pedido.
+> Por último, fazer o tratamento no back-end.
+
 ## Está com dificuldades para realizar pedidos teste?
 O ifood recomenda colocar o endereço "Bujari, 100" no bairro "BUJARI", se já fez os procedimentos porém continua não visualizando, siga os passos abaixo.
 
