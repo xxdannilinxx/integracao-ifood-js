@@ -41,4 +41,5 @@ Para realizar os pedidos em sua loja, basta acessar a url do ifood passando o "i
 https://www.ifood.com.br/delivery/bujari-ac/loja-teste/e4517892-ebab-40d3-b162-3qsf2-b1114a2320a6
 ```
 
-> Ficou alguma dúvida? sinta-se a vontade para abrir uma issue.
+### Ficou alguma dúvida?
+> Sinta-se a vontade para abrir uma issue, que tentarei esclarecer.
